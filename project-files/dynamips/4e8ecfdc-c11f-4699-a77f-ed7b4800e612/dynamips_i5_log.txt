@@ -1,0 +1,37 @@
+Dec 12 16:11:36.626 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:11:36.626 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63065.
+Dec 12 16:11:37.131 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:11:37.132 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Bruno\GNS3\projects\projeto\project-files\dynamips 
+Dec 12 16:11:37.132 GENERAL: working_dir=C:\Users\Bruno\GNS3\projects\projeto\project-files\dynamips
+Dec 12 16:11:37.132 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Bruno\GNS3\projects\projeto\project-files\dynamips\4e8ecfdc-c11f-4699-a77f-ed7b4800e612 
+Dec 12 16:11:37.132 GENERAL: working_dir=C:\Users\Bruno\GNS3\projects\projeto\project-files\dynamips\4e8ecfdc-c11f-4699-a77f-ed7b4800e612
+Dec 12 16:11:37.133 HYPERVISOR: exec_cmd: vm create RouterA 5 c7200 
+Dec 12 16:11:37.134 VM: VM RouterA created.
+Dec 12 16:11:37.134 HYPERVISOR: exec_cmd: vm set_con_tcp_port RouterA 5004 
+Dec 12 16:11:37.134 HYPERVISOR: exec_cmd: c7200 get_mac_addr RouterA 
+Dec 12 16:11:37.134 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 12 16:11:37.135 HYPERVISOR: exec_cmd: vm slot_add_binding RouterA 0 0 C7200-IO-FE 
+Dec 12 16:11:37.135 HYPERVISOR: exec_cmd: vm set_disk0 RouterA 0 
+Dec 12 16:11:37.135 HYPERVISOR: exec_cmd: vm set_exec_area RouterA 64 
+Dec 12 16:11:37.135 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 12 16:11:37.136 HYPERVISOR: exec_cmd: vm set_idle_pc RouterA 0x6388a710 
+Dec 12 16:11:37.136 HYPERVISOR: exec_cmd: vm set_ios RouterA C:/Users/Bruno/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.bin 
+Dec 12 16:11:37.136 HYPERVISOR: exec_cmd: c7200 set_mac_addr RouterA ca05.0408.0000 
+Dec 12 16:11:37.137 HYPERVISOR: exec_cmd: vm set_nvram RouterA 512 
+Dec 12 16:11:37.137 HYPERVISOR: exec_cmd: vm set_ram RouterA 512 
+Dec 12 16:11:37.137 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 12 16:11:37.137 HYPERVISOR: exec_cmd: vm slot_remove_binding RouterA 0 0 
+Dec 12 16:11:37.138 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 12 16:11:37.138 HYPERVISOR: exec_cmd: vm slot_add_binding RouterA 0 0 C7200-IO-2FE 
+Dec 12 16:11:37.138 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 12 16:11:37.138 HYPERVISOR: exec_cmd: vm slot_add_binding RouterA 1 0 PA-2FE-TX 
+Dec 12 16:11:37.138 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 12 16:11:37.138 HYPERVISOR: exec_cmd: vm slot_add_binding RouterA 2 0 PA-2FE-TX 
+Dec 12 16:28:13.000 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 12 16:28:13.004 HYPERVISOR: exec_cmd: vm set_idle_pc RouterA 0x60617ec4 
+Dec 12 16:29:59.150 HYPERVISOR: exec_cmd: vm set_ghost_status RouterA 2 
+Dec 12 16:29:59.150 HYPERVISOR: exec_cmd: vm set_ghost_file RouterA C:\Users\Bruno\GNS3\projects\projeto\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.bin-512.ghost 
+Dec 12 16:29:59.150 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 12 16:29:59.151 HYPERVISOR: exec_cmd: vm set_config RouterA configs\i5_startup-config.cfg 
+Dec 12 16:29:59.151 HYPERVISOR: exec_cmd: vm start RouterA 
+Dec 12 16:30:30.627 HYPERVISOR: exec_cmd: vm extract_config RouterA 

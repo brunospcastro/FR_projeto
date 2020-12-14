@@ -1,0 +1,20 @@
+Dec 12 16:11:34.750 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:11:34.751 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63046.
+Dec 12 16:11:34.936 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:11:34.936 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Bruno\GNS3\projects\projeto\project-files\dynamips 
+Dec 12 16:11:34.939 GENERAL: working_dir=C:\Users\Bruno\GNS3\projects\projeto\project-files\dynamips
+Dec 12 16:11:34.940 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Bruno\GNS3\projects\projeto\project-files\dynamips\2eaf2f3c-0231-4b53-9858-9a2ce6fff3b0 
+Dec 12 16:11:34.940 GENERAL: working_dir=C:\Users\Bruno\GNS3\projects\projeto\project-files\dynamips\2eaf2f3c-0231-4b53-9858-9a2ce6fff3b0
+Dec 12 16:11:34.940 HYPERVISOR: exec_cmd: vm create SWL3F2 1 c3725 
+Dec 12 16:11:34.941 VM: VM SWL3F2 created.
+Dec 12 16:11:34.942 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3F2 5000 
+Dec 12 16:11:34.942 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWL3F2 
+Dec 12 16:11:34.942 HYPERVISOR: exec_cmd: vm set_disk0 SWL3F2 1 
+Dec 12 16:11:34.943 HYPERVISOR: exec_cmd: vm set_exec_area SWL3F2 64 
+Dec 12 16:11:34.943 HYPERVISOR: exec_cmd: vm get_status SWL3F2 
+Dec 12 16:11:34.943 HYPERVISOR: exec_cmd: vm set_idle_pc SWL3F2 0x6114545c 
+Dec 12 16:11:34.944 HYPERVISOR: exec_cmd: vm set_ios SWL3F2 C:/Users/Bruno/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.bin 
+Dec 12 16:11:34.944 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWL3F2 c201.0a8c.0000 
+Dec 12 16:11:34.945 HYPERVISOR: exec_cmd: vm set_nvram SWL3F2 256 
+Dec 12 16:11:34.945 HYPERVISOR: exec_cmd: vm get_status SWL3F2 
+Dec 12 16:11:34.945 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3F2 1 0 NM-16ESW 
